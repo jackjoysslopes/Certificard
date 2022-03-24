@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lora:ital@0;1&family=Oswald&family=Roboto&family=Roboto+Condensed&display=swap;700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #4b0082 27.26%, #9370db 96.03%);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.container {
+  background: #e6e6fa;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shawdon: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 38px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.tema button {
+  align-self: flex-end;
+  ont-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 8px 16px;
+  background: #e6e6fa;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #8968cd 27.49%, #ab82ff 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 20px 20px 40px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weigth: 700px;
+  font-size: 26px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 46px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #1c1c1c 27.26%, #5d478b 96.03%);
+}
+.dark .container {
+  background: #696969;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+}
+
+.dark .tema button {
+  background: #696969;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
